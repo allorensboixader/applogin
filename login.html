@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>App Login</h1>
+
+    <fieldset style="width:50%; margin: auto">
+        <legend>Autenticació</legend>
+        <form action="https://lemon-smoke-a7167dc827b14d72a1d6d0d84bb7a317.azurewebsites.net/login.php" method="post">     
+            <div class="container">
+            <label for="uname"><b>Usuari</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br/>
+            <label for="psw"><b>Contrasenya</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br/>
+            <button type="submit">Login</button>      
+            </div>     
+        </form> 
+    </fieldset>
+</body>
+</html>
